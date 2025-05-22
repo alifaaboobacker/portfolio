@@ -15,16 +15,16 @@ const ContactPage: React.FC = () => {
                     </h1>
                     <p className="text-gray-600 max-w-2xl mx-auto text-lg">
                         Feel free to reach out for collaborations, opportunities, or just to say hello!
-                        I'm currently available for both remote and Dubai-based roles.
+                        I&apos;m currently available for both remote and Dubai-based roles.
                     </p>
                 </div>
                 
                 {/* Main Contact Card */}
                 <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-3xl mx-auto transition-all duration-300 hover:shadow-2xl">
                     <div className="bg-gray-800 text-white p-8">
-                        <h2 className="text-2xl font-bold mb-4">Let's Connect</h2>
+                        <h2 className="text-2xl font-bold mb-4">Let&apos;s Connect</h2>
                         <p className="text-gray-300">
-                            Looking for a full-stack developer? I'm currently open to new opportunities.
+                            Looking for a full-stack developer? I&apos;m currently open to new opportunities.
                         </p>
                     </div>
                     

@@ -54,7 +54,7 @@ const AboutPage: React.FC = () => {
                             <div className="bg-gray-700 p-3 rounded-full">
                                 <User size={24} />
                             </div>
-                            <h2 className="text-2xl font-bold">Hello, I'm Alifa Aboobacker</h2>
+                            <h2 className="text-2xl font-bold">Hello, I&apos;m Alifa Aboobacker</h2>
                         </div>
                         <p className="text-gray-300">
                             Full Stack Software Engineer with over 2 years of experience
@@ -63,7 +63,7 @@ const AboutPage: React.FC = () => {
                     
                     <div className="p-8 space-y-6">
                         <p className="text-gray-700 leading-relaxed">
-                            I'm a Full Stack Software Engineer based in Thrissur, Kerala, India with over 2 years of experience in developing scalable, high-performance web applications. I'm passionate about creating elegant solutions to complex problems.
+                            I&apos;m a Full Stack Software Engineer based in Thrissur, Kerala, India with over 2 years of experience in developing scalable, high-performance web applications. I&apos;m passionate about creating elegant solutions to complex problems.
                         </p>
                         
                         <p className="text-gray-700 leading-relaxed">
@@ -71,11 +71,11 @@ const AboutPage: React.FC = () => {
                         </p>
                         
                         <p className="text-gray-700 leading-relaxed">
-                            I'm well-versed in SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases for optimized data handling and seamless integration. I have experience in deploying applications using Docker and AWS (EC2, S3, RDS, Lambda), alongside implementing CI/CD pipelines (GitHub Actions, GitLab CI/CD) for automated and scalable deployments.
+                            I&apos;m well-versed in SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases for optimized data handling and seamless integration. I have experience in deploying applications using Docker and AWS (EC2, S3, RDS, Lambda), alongside implementing CI/CD pipelines (GitHub Actions, GitLab CI/CD) for automated and scalable deployments.
                         </p>
                         
                         <p className="text-gray-700 leading-relaxed">
-                            My work approach involves Agile methodologies (Scrum, JIRA), cross-functional collaboration, and contributing to architectural design, performance tuning, and security best practices. I'm passionate about writing clean, maintainable code with a focus on reliability.
+                            My work approach involves Agile methodologies (Scrum, JIRA), cross-functional collaboration, and contributing to architectural design, performance tuning, and security best practices. I&apos;m passionate about writing clean, maintainable code with a focus on reliability.
                         </p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ const AboutPage: React.FC = () => {
                                 <div>
                                     <h3 className="text-lg font-semibold text-gray-800 mb-2">Available for Opportunities</h3>
                                     <p className="text-gray-700 leading-relaxed mb-4">
-                                        I'm currently open to both remote and Dubai-based opportunities and available to join immediately. I'm looking for challenging roles where I can contribute my skills in full-stack development, particularly with Node.js and Python frameworks.
+                                        I&apos;m currently open to both remote and Dubai-based opportunities and available to join immediately. I&apos;m looking for challenging roles where I can contribute my skills in full-stack development, particularly with Node.js and Python frameworks.
                                     </p>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <MapPin size={16} />
@@ -193,7 +193,7 @@ const AboutPage: React.FC = () => {
             <div className="bg-white border-t border-gray-100 py-16">
                 <div className="max-w-5xl mx-auto px-4 text-center">
                     <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                        Let's work together
+                        Let&apos;s work together
                     </h2>
                     <p className="text-gray-600 mb-8">
                         Ready to bring your ideas to life with clean, scalable code

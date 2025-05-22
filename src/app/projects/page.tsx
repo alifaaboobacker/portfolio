@@ -172,7 +172,7 @@ const ProjectsPage: React.FC = () => {
                         Ready to collaborate on your next project?
                     </h2>
                     <p className="text-gray-600 mb-8">
-                        Let's build something amazing together
+                        Let&apos;s build something amazing together
                     </p>
                     <a 
                         href="/contact"

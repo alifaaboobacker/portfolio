@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
 import type { JSX } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Database, Server, MessageCircle } from "lucide-react";
+import { Database, Server, MessageCircle } from "lucide-react";
 
 // Type definitions
 interface SkillItem {
@@ -255,7 +255,7 @@ export default function Home(): JSX.Element {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <h1 className="text-5xl font-bold mb-3 text-gray-800">
-            <span className="block">Hello, I'm</span>
+            <span className="block">Hello, I&apos;m</span>
             <span className="text-gray-900 relative">
               Alifa Aboobacker
               <span className="absolute bottom-0 left-0 w-full h-2 bg-gray-300 opacity-30"></span>

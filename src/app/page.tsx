@@ -88,7 +88,7 @@ const LazySection: React.FC<LazyProps> = ({ children, threshold = 0.1 }) => {
 export default function Home(): JSX.Element {
   const [activeFilter, setActiveFilter] = useState<string>('All');
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [isHovered, setIsHovered] = useState<number | null>(null);
+  
 
   // Simulate loading
   useEffect(() => {
@@ -490,8 +490,6 @@ export default function Home(): JSX.Element {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 * index }}
-              onMouseEnter={() => setIsHovered(project.id)}
-              onMouseLeave={() => setIsHovered(null)}
             >
               <div className="p-6">
                 <div className={`${project.iconBg} w-12 h-12 rounded-full flex items-center justify-center mb-4`}>

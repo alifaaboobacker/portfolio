@@ -63,7 +63,7 @@ export default function ChatbotDialog({ onClose }: ChatbotDialogProps) {
   return (
     <div className="bg-white rounded-lg shadow-xl flex flex-col w-80 h-96">
       <div className="bg-gray-800 text-white p-4 rounded-t-lg flex justify-between items-center">
-        <h3 className="font-medium">Alifa's AI Assistant</h3>
+        <h3 className="font-medium">Alifa&apos;s AI Assistant</h3>
         <button onClick={onClose} className="text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="18" y1="6" x2="6" y2="18"></line>
